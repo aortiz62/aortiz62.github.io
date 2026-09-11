@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.miles-converterbox {
+    padding: 35px;
+    text-align: center;
+    color: green;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+input[type="number"] {
+    padding: 5px;
+    border-radius: 10px;
+}
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
