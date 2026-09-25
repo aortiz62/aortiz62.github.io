@@ -64,8 +64,9 @@ body, html {
 }
 
 .btn:hover {
-    background-color: red;
+    background-color: rgb(218, 89, 89);
 }
+
 
 .side.enlarged {
     flex: 5; 
