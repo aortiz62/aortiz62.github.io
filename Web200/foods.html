@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+  Alex Ortiz
+  Mod12
+  Web200
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Order Page</title>
+</head>
+<body>
+
+  <h1>Order Your Pizza</h1>
+
+  <form id="pizzaForm">
+    
+    <div class="section">
+      <h2>1. Choose Pizza Size</h2>
+      <label><input type="radio" name="size" value="Small" data-price="10" checked> Small ($10.00)</label><br>
+      <label><input type="radio" name="size" value="Medium" data-price="13"> Medium ($13.00)</label><br>
+      <label><input type="radio" name="size" value="Large" data-price="16"> Large ($16.00)</label><br>
+      <label><input type="radio" name="size" value="Extra Large" data-price="19"> Extra Large ($19.00)</label>
+    </div>
+
+    <div class="section">
+      <h2>2. Choose Toppings ($1.50 each)</h2>
+      <label><input type="checkbox" name="topping" value="Pepperoni"> Pepperoni</label><br>
+      <label><input type="checkbox" name="topping" value="Sausage"> Sausage</label><br>
+      <label><input type="checkbox" name="topping" value="Mushrooms"> Mushrooms</label><br>
+      <label><input type="checkbox" name="topping" value="Onions"> Onions</label><br>
+      <label><input type="checkbox" name="topping" value="Green Peppers"> Green Peppers</label><br>
+      <label><input type="checkbox" name="topping" value="Black Olives"> Black Olives</label><br>
+      <label><input type="checkbox" name="topping" value="Extra Cheese"> Extra Cheese</label>
+    </div>
+
+    <div class="section">
+      <h2>3. Customer Information</h2>
+      <label for="custName">Name:</label><br>
+      <input type="text" id="custName" required><br><br>
+
+      <label for="custEmail">Email:</label><br>
+      <input type="email" id="custEmail" required><br><br>
+
+      <label for="custPhone">Phone:</label><br>
+      <input type="tel" id="custPhone" required><br><br>
+
+      <label for="custAddress">Address:</label><br>
+      <input type="text" id="custAddress" required><br><br>
+
+      <label for="orderNotes">Order Notes:</label><br>
+      <textarea id="orderNotes" rows="3"></textarea>
+    </div>
+
+    <div class="section summary">
+      <h2>4. Order Details</h2>
+      
+      <label for="pizzaQty">Number of Pizzas:</label>
+      <input type="number" id="pizzaQty" value="1" min="1" max="20">
+
+      <p><strong>Size Selected:</strong> <span id="displaySize">Small</span></p>
+      <p><strong>Toppings Selected:</strong> <span id="displayToppings">None</span></p>
+      <p><strong>Total Price:</strong> $<span id="displayTotal">10.00</span></p>
+
+      <button type="submit">Place Order</button>
+    </div>
+
+  </form>
+
+</body>
+</html>
