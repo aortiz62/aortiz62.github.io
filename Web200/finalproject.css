@@ -6,3 +6,7 @@ body {
     margin: 20px auto;
     padding: 15px;
 }
+h1 {
+    text-align: center;
+    color: #c0392b;
+}
