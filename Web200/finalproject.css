@@ -10,3 +10,9 @@ h1 {
     text-align: center;
     color: #c0392b;
 }
+.section {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-bottom: 15px;
+}
