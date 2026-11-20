@@ -28,3 +28,15 @@ textarea {
     margin-top: 10px;
     border: 1px solid #cccccc;
 }
+.summary {
+    background-color: #ffffff;
+    border color: #c0392b;
+}
+button {
+    background-color: #c0392b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
