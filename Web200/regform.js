@@ -10,3 +10,19 @@ form.onsubmit = function(event) {
 
     nameerr.innerHTML = "";
     emailerr.innerHTML = "";
+
+    var valid = true;
+
+    if (name == "") {
+        nameerr.innerHTML = "Name is required.";
+        valid = false;
+    }
+
+    if (email == "") {
+        emailerr.innerHTML = "Email is required.";
+        valid = false;
+        } else if (!email.includes("@")) {
+            emailerr.innerHTML = "enter a valid email";
+            valid = false;
+        }
+    };
