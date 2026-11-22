@@ -1,17 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background-color: lightgray;
 }
 
 .box {
-    width: 400px;
-    margin: 50px auto;
+    width: 500px;
+    margin: 40px auto;
     padding: 20px;
     background-color: white;
     border: 1px solid black;
 }
 
 input {
-    width: 100%;
-    padding: 10px;
+    width: 220px;
+    padding: 5px;
 }
