@@ -22,3 +22,12 @@ input {
 h2 {
     text-align: center;
 }
+.error {
+    color: #ff6b6b;
+    font-size: 16px;
+    margin-left: 8px;
+}
+#donemsg {
+    color: #51cf66;
+    font-weight: bold;
+}
